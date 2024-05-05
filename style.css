@@ -1,9 +1,9 @@
 * {
-    /* border: 1px solid red; */
+    /* border: 1px solid red !important; */
 }
 
 body {
-    background-color: #16191d;
+    background-color: #0762a1    ;
     color: #dfdfdf;
     
     display: flex;
@@ -12,40 +12,71 @@ body {
     gap: 1rem;
 }
 
-label {
+/* label {
     font-size: 1.5rem;   
-}
+} */
 
-input {
+/* input {
     font-size: 1.5rem;
-}
-
-button {
-    background-color: #005db2;
-    font-size: 1.5rem;
-    color: #fafcfe;
-    padding: 0.5rem 1rem; 
-    border-radius: 0.5rem;
-    border: none;
-}
+} */
 
 h1 {
     font-size: 3rem;
 }
 
-p {
+/* p {
     font-size: 2rem;
     border: 1px solid #000;
     padding: 0.5rem 2rem;
     background-color: #292727;
-}
+} */
 
-.buttons {
+/* .buttons {
     display: flex;
     gap: 1rem;
     margin-top: 0.5rem;
+} */
+
+/* #inp1 #inp2{
+    border: 1px solid black;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    background: #18191b;
+    padding: 2rem 1rem;
+    border-radius: 0.6rem;
+    width: 250px;
 }
 
-#inp1 #inp2{
-    border: 1px solid black;
+.calculo{
+    border: 2px solid black ;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    background-color:white;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2c3238;
+    font-size: 1.5rem;
+    color: #fafcfe;
+    padding: 0.5rem 1rem; 
+    border-radius: 0.5rem;
+    border: none;
+    width: 50px;
+    height: 50;
+    /* cursor: pointer; */
 }
